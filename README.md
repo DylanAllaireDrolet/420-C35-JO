@@ -6,12 +6,12 @@
 
 Références relatives au cours:
 
-## Ordinateur
+## Informatique
 
 - [Données](Documents/Data.md)
 - [Machine](Documents/PC.md)
 
-## Programmation
+## Langages de programmation
 
 - [Assembleur](Documents/ASM.md)
 - [C](Documents/C.md)
@@ -19,8 +19,9 @@ Références relatives au cours:
 - [Rust](Documents/Rust.md)
 - [Python](Documents/Python.md)
 
-## Sécurité
+## Sécurité logicielle
 
+- [Chaînes de caractères](Documents/Strings.md)
 - [Exécution d'un programme](Documents/Execution.md)
 - [Débordement de tampon](Documents/BufferOverflow.md)
 - [Débordement de pile](Documents/StackOverflow.md)
