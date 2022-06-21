@@ -92,36 +92,15 @@ Plutôt que d'utiliser les adresses physiques de la mémoire centrale d'un ordin
 
 La procédure, ou fonction, identifiée « main » est le point d'entré d'un programme en langage C:
 
-```C
-///\brief Procédure principale.
-void main() {
-  // Instructions de la procédure principale.
-}
-```
+![Procédure principale](Images/CMain.png)
 
 La fonction principale permet de retourner une valeur entière au système d'exploitation:
 
-```C
-///\brief Fonction principale.
-int main() {
-  // Instructions de la fonction principale.
-
-  return 0;
-}
-```
+![Fonction principale](Images/CMainRet.png)
 
 La fonction principale peut aussi avoir des paramètre afin de reçevoir des arguments:
 
-```C
-///\brief Fonction principale
-///\param argc Nombre d'arguments
-///\param argv Arguments
-int main(int argc, char* argv[]) {
-  // Instructions de la fonction principale.
-
-  return 0;
-}
-```
+![Fonction principale](Images/CMainArgv.png)
 
 # Macros
 
@@ -131,10 +110,7 @@ Ces instructions sont toutes précédées du caractère « # » et sont exécut�
 
 Sert régulièrement à déclarer des constantes, et agit comme un « rechercher-remplacer »:
 
-```c
-#define false 0
-#define true 1
-```
+![Booléens](Images/CBoolTypeDef.png)
 
 Ainsi, tous les termes « false » seront remplacés par 0 et tous les termes « true » seront remplacés par 1, avant la compilation.
 
@@ -142,9 +118,7 @@ Ainsi, tous les termes « false » seront remplacés par 0 et tous les termes «
 
 Agit comme un « copier-coller »:
 
-```c
-#include <stdbool.h>
-```
+![Inclusion](Images/CInclude.png)
 
 Ainsi, le code nécessaire sera copié du fichier « stdbool.h » et collé à l'endroit du « #include » avant la compilation.
 

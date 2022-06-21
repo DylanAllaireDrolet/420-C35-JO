@@ -26,3 +26,10 @@ Références relatives au cours:
 - [Débordement de tampon](Documents/BufferOverflow.md)
 - [Débordement de pile](Documents/StackOverflow.md)
 - [Injection de code](Documents/ShellCode.md)
+
+## Fichiers
+
+Fichiers relatifs au cours:
+
+- [Projet Visual Studio Code en Langage C](Documents/Files/VSCodeCProject.zip)
+- [Projet Visual Studio Code en Langage C++](Documents/Files/VSCodeCPPProject.zip)
