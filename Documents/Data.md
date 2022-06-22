@@ -30,7 +30,7 @@ La base de la logique informatique repose sur le système binaire, un système d
 
 Et on nomme « octet » un groupe de 8 bits, qui consistent en l’unité de base en informatique:
 
-*[Image]*
+![Octet](Images/Byte.png)
 
 L’utilisation de ce système, plutôt que le système décimal, s’explique par la facilité de représenter des données et effectuer des opérations avec l’électricité; puisque soit le courant passe (1), soit il ne passe pas (0).
 
