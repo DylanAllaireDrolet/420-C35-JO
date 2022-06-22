@@ -10,30 +10,45 @@ Certains systèmes de numération sont particulier, tel le système romain. Dans
 
 ## Décimal
 
-Le fait que nous ayons 10 doigts n'est probablement pas étranger au système décimal, système de numération additif à base 10.
+Le fait que nous ayons 10 doigts n'est probablement pas étranger au système décimal, système de numération additif à base 10. On nomme « chiffre » les 10 symboles de cette numération, généralement représentés par:
 
-Le nombre décimal 12345 peut être décomposé de façon suivante:
+*[Image]*
 
-**12345** = **1** x 10000 + **2** x 1000 + **3** x 100 + **4** x 10 + **5** x 1
+Le nombre décimal 123456 peut être décomposé de façon suivante:
+
+*[Image]*
 
 Et puisqu'il s'agit d'un nombre à base 10, il peut être représenté de façon suivante:
 
-**12345** = **1** x *10<sup>4</sup>* + **2** x *10<sup>3</sup>* + **3** x *10<sup>2</sup>* + **4** x *10<sup>1</sup>* + **5** x *10<sup>0</sup>*
+*[Image]*
 
 ## Binaire
 
-La base de la logique informatique repose sur le système binaire, un système de numération à base 2. On nomme « bit » les chiffres de cette numération, généralement représentés par 0
-et 1. Et on nomme « octet » un groupe de 8 bits, qui consistent en l’unité de base en informatique.
+La base de la logique informatique repose sur le système binaire, un système de numération à base 2. On nomme « bit » les 2 symboles de cette numération, généralement représentés par:
 
-L’utilisation de ce système, plutôt que le système décimal, s’explique par la facilité de représenter des données et effectuer des opérations avec l’électricité ; puisque soit le courant passe (1), soit il ne passe pas (0).
+*[Image]*
 
-Malgré ça base minimaliste, le fonctionnement du système binaire est équivalent à celui du système décimal, et le nombre binaire 101010 peut être décomposé de façon suivante:
+Et on nomme « octet » un groupe de 8 bits, qui consistent en l’unité de base en informatique:
 
-**101010** = **1** x 32 + **0** x 16 + **1** x 8 + **0** x 4 + **1** x 2 + **0** x 1
+*[Image]*
 
-Et puisqu'il s'agit d'un nombre à base 2, il peut être représenté de façon suivante:
+L’utilisation de ce système, plutôt que le système décimal, s’explique par la facilité de représenter des données et effectuer des opérations avec l’électricité; puisque soit le courant passe (1), soit il ne passe pas (0).
 
-**101010** = **1** x *2<sup>5</sup>* + **0** x *2<sup>4</sup>* + **1** x *2<sup>3</sup>* + **0** x *2<sup>2</sup>* + **1** x *2<sup>1</sup>* + **0** x *2<sup>0</sup>*
+### Conversions
+
+Malgré ça base minimaliste, le fonctionnement du système binaire est équivalent à celui du système décimal, et le nombre binaire 101010 peut être convertis de façon suivante:
+
+*[Image]*
+
+La même logique peut être utilisée avec la base 2 afin de convertir le nombre binaire 101010 en décimal:
+
+*[Image]*
+
+#### Décimal à Binaire
+
+Plutôt que de multiplier par la base, c'est la division entière qui est utilisée pour effectuer la conversion. Le reste à cette division est ajouté au résultat, de droite à gauche, jusqu'à ce que le nombre entier décimal soit 0:
+
+*[Image]*
 
 ## Hexadécimal
 
