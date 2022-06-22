@@ -134,7 +134,7 @@ Ainsi, le code nécessaire sera copié du fichier « stdbool.h » et collé à l
 
 Liste, non exhaustive, des opérateurs du langage C:
 
-|Priorité|Opérateur|Description          |Propagation|
+|Priorité|Opérateur|Description          |Évaluation                               |
 |:------:|:-------:|:--------------------|:---------------------------------------:|
 |1       |()       |Parenthèses          |![Gauche à droite](Images/RightArrow.png)|
 |1       |[]       |Crochets             |![Gauche à droite](Images/RightArrow.png)|
@@ -155,4 +155,4 @@ Liste, non exhaustive, des opérateurs du langage C:
 |7       |!=       |Différent            |![Gauche à droite](Images/RightArrow.png)|
 |11      |&&       |Et logique           |![Gauche à droite](Images/RightArrow.png)|
 |12      |\|\|     |Ou logique           |![Gauche à droite](Images/RightArrow.png)|
-|14      |=        |Affectation          |![Gauche à droite](Images/RightArrow.png)|
+|14      |=        |Affectation          |![Droite à gauche](Images/LeftArrow.png)|
