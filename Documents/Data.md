@@ -6,12 +6,19 @@ Mais ces valeurs numériques peuvent aussi s’exprimer de plusieurs façons, ce
 
 # Système de numération
 
-Certains systèmes de numération sont particulier, tel le système romain. Dans un contexte informatique, ayant comme principaux besoins de représenter et traiter de l’information par
-une machine, un système de numération plus adapté aux mathématiques et à l’électronique est nécessaire.
+Certains systèmes de numération sont particulier, tel le système romain. Dans un contexte informatique, ayant comme principaux besoins de représenter et traiter de l’information par une machine, un système de numération plus adapté aux mathématiques et à l’électronique est nécessaire.
 
 ## Décimal
 
-...
+Le fait que nous ayons 10 doigts n'est probablement pas étranger au système décimal, système de numération additif à base 10.
+
+Le nombre décimal 12345 peut être décomposé de façon suivante:
+
+**12345** = **1** x 10000 + **2** x 1000 + **3** x 100 + **4** x 10 + **5** x 1
+
+Et puisqu'il s'agit d'un nombre à base 10, il peut être représenté de façon suivante:
+
+**12345** = **1** x *10<sup>4</sup>* + **2** x *10<sup>3</sup>* + **3** x *10<sup>2</sup>* + **4** x *10<sup>1</sup>* + **5** x *10<sup>0</sup>*
 
 ## Binaire
 
@@ -20,8 +27,16 @@ et 1. Et on nomme « octet » un groupe de 8 bits, qui consistent en l’unité 
 
 L’utilisation de ce système, plutôt que le système décimal, s’explique par la facilité de représenter des données et effectuer des opérations avec l’électricité ; puisque soit le courant passe (1), soit il ne passe pas (0).
 
-Malgré ça base minimaliste, le fonctionnement du système binaire est très similaire à celui du système décimal.
+Malgré ça base minimaliste, le fonctionnement du système binaire est équivalent à celui du système décimal, et le nombre binaire 101010 peut être décomposé de façon suivante:
+
+**101010** = **1** x 32 + **0** x 16 + **1** x 8 + **0** x 4 + **1** x 2 + **0** x 1
+
+Et puisqu'il s'agit d'un nombre à base 2, il peut être représenté de façon suivante:
+
+**101010** = **1** x *2<sup>5</sup>* + **0** x *2<sup>4</sup>* + **1** x *2<sup>3</sup>* + **0** x *2<sup>2</sup>* + **1** x *2<sup>1</sup>* + **0** x *2<sup>0</sup>*
 
 ## Hexadécimal
 
 Ce système de numération est régulièrement utilisé en informatique afin de représenter de grandes valeurs de façon plus concise.
+
+...
