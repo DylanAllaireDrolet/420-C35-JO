@@ -86,7 +86,9 @@ Plutôt que d'utiliser les adresses physiques de la mémoire centrale d'un ordin
 
 ## Déclarations
 
-...
+Le diagramme syntaxique ci-dessous expose toutes les possibilités de syntaxe afin de déclarer et initialiser des variables de même type:
+
+![Diagramme syntaxique](Images/CVariableRailroad.png)
 
 # Point d'entré
 
@@ -123,3 +125,34 @@ Agit comme un « copier-coller »:
 Ainsi, le code nécessaire sera copié du fichier « stdbool.h » et collé à l'endroit du « #include » avant la compilation.
 
 *Par exemple, pour utiliser des variables booléennes dans un projet, il faut définir le type (typedef) « bool », et définir (#define) les constantes « false » et « true ». Ces définitions ont plutôt été placées dans un fichier d'en-tête « stdbool.h », permettant ainsi de seulement l'inclure (#include) dans les projets nécessitant l'utilisation de booléens.*
+
+# Opérateurs
+
+...
+
+## Priorités
+
+Liste, non exhaustive, des opérateurs du langage C:
+
+|Priorité|Opérateur|Description          |Propagation|
+|:------:|:-------:|:--------------------|:---------:|
+|1       |()       |Parenthèses          |-->        |
+|1       |[]       |Crochets             |-->        |
+|2       |!        |Négation logique     |<--        |
+|2       |-        |Négation arithmétique|<--        |
+|2       |--       |Décrémentation       |<--        |
+|2       |++       |Incrémentation       |<--        |
+|3       |*        |Multiplication       |-->        |
+|3       |/        |Division             |-->        |
+|3       |%        |Modulo               |-->        |
+|4       |+        |Addition             |-->        |
+|4       |-        |Soustraction         |-->        |
+|6       |<        |Plus petit           |-->        |
+|6       |<=       |Plus petit ou égal   |-->        |
+|6       |>        |Plus grand           |-->        |
+|6       |>=       |Plus grand ou égal   |-->        |
+|7       |==       |Égal                 |-->        |
+|7       |!=       |Différent            |-->        |
+|11      |&&       |Et logique           |-->        |
+|12      |\|\|     |Ou logique           |-->        |
+|14      |=        |Affectation          |<--        |
