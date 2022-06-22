@@ -135,24 +135,24 @@ Ainsi, le code nécessaire sera copié du fichier « stdbool.h » et collé à l
 Liste, non exhaustive, des opérateurs du langage C:
 
 |Priorité|Opérateur|Description          |Propagation|
-|:------:|:-------:|:--------------------|:---------:|
-|1       |()       |Parenthèses          |-->        |
-|1       |[]       |Crochets             |-->        |
-|2       |!        |Négation logique     |<--        |
-|2       |-        |Négation arithmétique|<--        |
-|2       |--       |Décrémentation       |<--        |
-|2       |++       |Incrémentation       |<--        |
-|3       |*        |Multiplication       |-->        |
-|3       |/        |Division             |-->        |
-|3       |%        |Modulo               |-->        |
-|4       |+        |Addition             |-->        |
-|4       |-        |Soustraction         |-->        |
-|6       |<        |Plus petit           |-->        |
-|6       |<=       |Plus petit ou égal   |-->        |
-|6       |>        |Plus grand           |-->        |
-|6       |>=       |Plus grand ou égal   |-->        |
-|7       |==       |Égal                 |-->        |
-|7       |!=       |Différent            |-->        |
-|11      |&&       |Et logique           |-->        |
-|12      |\|\|     |Ou logique           |-->        |
-|14      |=        |Affectation          |<--        |
+|:------:|:-------:|:--------------------|:---------------------------------------:|
+|1       |()       |Parenthèses          |![Gauche à droite](Images/RightArrow.png)|
+|1       |[]       |Crochets             |![Gauche à droite](Images/RightArrow.png)|
+|2       |!        |Négation logique     |![Droite à gauche](Images/LeftArrow.png) |
+|2       |-        |Négation arithmétique|![Droite à gauche](Images/LeftArrow.png) |
+|2       |--       |Décrémentation       |![Droite à gauche](Images/LeftArrow.png) |
+|2       |++       |Incrémentation       |![Droite à gauche](Images/LeftArrow.png) |
+|3       |*        |Multiplication       |![Gauche à droite](Images/RightArrow.png)|
+|3       |/        |Division             |![Gauche à droite](Images/RightArrow.png)|
+|3       |%        |Modulo               |![Gauche à droite](Images/RightArrow.png)|
+|4       |+        |Addition             |![Gauche à droite](Images/RightArrow.png)|
+|4       |-        |Soustraction         |![Gauche à droite](Images/RightArrow.png)|
+|6       |<        |Plus petit           |![Gauche à droite](Images/RightArrow.png)|
+|6       |<=       |Plus petit ou égal   |![Gauche à droite](Images/RightArrow.png)|
+|6       |>        |Plus grand           |![Gauche à droite](Images/RightArrow.png)|
+|6       |>=       |Plus grand ou égal   |![Gauche à droite](Images/RightArrow.png)|
+|7       |==       |Égal                 |![Gauche à droite](Images/RightArrow.png)|
+|7       |!=       |Différent            |![Gauche à droite](Images/RightArrow.png)|
+|11      |&&       |Et logique           |![Gauche à droite](Images/RightArrow.png)|
+|12      |\|\|     |Ou logique           |![Gauche à droite](Images/RightArrow.png)|
+|14      |=        |Affectation          |![Gauche à droite](Images/RightArrow.png)|
