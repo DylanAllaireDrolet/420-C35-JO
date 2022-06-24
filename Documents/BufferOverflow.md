@@ -8,6 +8,8 @@ Les langages de programmation de bas niveau ont comme objectif d'être performan
 
 En 1988, le premier maliciel autorépliquant voit le jour sous le nom de « Morris ».
 
+*[Image]*
+
 Pour s'autorépliquer, le ver Morris utilisait, entre autre, une faille de type débordement de tampon. Celle-ci se trouvait dans l'outil réseau, bien connu du monde Unix, « finger », programmé en langage C. Ce service permettait de connaître les utilisateurs connectés au poste de travail, mais aussi de demander de l'information à propos d'un utilisateur en particulier.
 
 Pour traiter la requête, la fonction « gets » était utilisée pour stocker le nom de l'utilisateur dans un tampon de 512 octets. Normalement, aucun nom d'utilisateur respectable ne contient 512 caractères, donc la taille du tampon peut sembler suffisante, voir même exagérer. Malgré tout, ce tampon reste vulnérable puisque la fonction « gets » ne prend aucun paramètre de validation concernant sa taille, ce que Robert Tappan Morris a su exploiter.
