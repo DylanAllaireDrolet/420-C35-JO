@@ -20,7 +20,7 @@ Le nombre décimal 123456 peut être décomposé de façon suivante:
 
 Et puisqu'il s'agit d'un nombre à base 10, il peut être représenté de façon suivante:
 
-*[Image]*
+![Base 10](Images/DecimalBase.png)
 
 ## Binaire
 
