@@ -12,25 +12,25 @@ Certains systèmes de numération sont particulier, tel le système romain. Dans
 
 Le fait que nous ayons 10 doigts n'est probablement pas étranger au système décimal, système de numération additif à base 10. On nomme « chiffre » les 10 symboles de cette numération, généralement représentés par:
 
-*[Image]*
+![Décimal](Images/Decimal.png)
 
 Le nombre décimal 123456 peut être décomposé de façon suivante:
 
-*[Image]*
+![Décomposition](Images/DecimalDecomposition.png)
 
 Et puisqu'il s'agit d'un nombre à base 10, il peut être représenté de façon suivante:
 
-*[Image]*
+![Base 10](Images/DecimalBase.png)
 
 ## Binaire
 
 La base de la logique informatique repose sur le système binaire, un système de numération à base 2. On nomme « bit » les 2 symboles de cette numération, généralement représentés par:
 
-*[Image]*
+![Binaire](Images/Binary.png)
 
 Et on nomme « octet » un groupe de 8 bits, qui consistent en l’unité de base en informatique:
 
-*[Image]*
+![Octet](Images/Byte.png)
 
 L’utilisation de ce système, plutôt que le système décimal, s’explique par la facilité de représenter des données et effectuer des opérations avec l’électricité; puisque soit le courant passe (1), soit il ne passe pas (0).
 
