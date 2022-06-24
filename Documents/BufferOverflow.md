@@ -1,6 +1,6 @@
 Un débordement de tampon (buffer overflow) consiste à écrire plus de données que l'espace réservé en mémoire pour les contenir.
 
-# Lancage C
+# Langage C
 
 Les langages de programmation de bas niveau ont comme objectif d'être performant en étant le plus près que possible du matériel. Par conséquent, il y a très peu de validation et on tient pour acquis que les programmeurs savent ce qu'ils font... ce qui n'est, malheureusement, pas toujours le cas.
 
@@ -14,7 +14,7 @@ Pour s'autorépliquer, le ver Morris utilisait, entre autre, une faille de type 
 
 Pour traiter la requête, la fonction « gets » était utilisée pour stocker le nom de l'utilisateur dans un tampon de 512 octets. Normalement, aucun nom d'utilisateur respectable ne contient 512 caractères, donc la taille du tampon peut sembler suffisante, voir même exagérer. Malgré tout, ce tampon reste vulnérable puisque la fonction « gets » ne prend aucun paramètre de validation concernant sa taille, ce que Robert Tappan Morris a su exploiter.
 
-*[Image]*
+![Robert Tappan Morris](Images/RobertTappanMorris.png)
 
 Les développeurs du langage C ont réalisés le problème, et dans la révision des spécifications 1999 la fonction « gets » a été dépréciée, tandis que dans la mise à jour 2011 elle a été entièrement retirée. Mais ce genre de faille expose bien les risques d'utiliser des langages de bas niveau sans bien en connaître les fonctionnements internes.
 
