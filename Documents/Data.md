@@ -16,7 +16,7 @@ Le fait que nous ayons 10 doigts n'est probablement pas étranger au système d�
 
 Le nombre décimal 123456 peut être décomposé de façon suivante:
 
-*[Image]*
+![Décomposition](Images/DecimalDecomposition.png)
 
 Et puisqu'il s'agit d'un nombre à base 10, il peut être représenté de façon suivante:
 
