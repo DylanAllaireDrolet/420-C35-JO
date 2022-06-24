@@ -86,7 +86,9 @@ Plutôt que d'utiliser les adresses physiques de la mémoire centrale d'un ordin
 
 ## Déclarations
 
-...
+Le diagramme syntaxique ci-dessous expose toutes les possibilités de syntaxe afin de déclarer et initialiser des variables de même type:
+
+![Diagramme syntaxique](Images/CVariableRailroad.png)
 
 # Point d'entré
 
@@ -123,3 +125,54 @@ Agit comme un « copier-coller »:
 Ainsi, le code nécessaire sera copié du fichier « stdbool.h » et collé à l'endroit du « #include » avant la compilation.
 
 *Par exemple, pour utiliser des variables booléennes dans un projet, il faut définir le type (typedef) « bool », et définir (#define) les constantes « false » et « true ». Ces définitions ont plutôt été placées dans un fichier d'en-tête « stdbool.h », permettant ainsi de seulement l'inclure (#include) dans les projets nécessitant l'utilisation de booléens.*
+
+# Opérateurs
+
+...
+
+## Priorités
+
+...
+
+|Priorité|Opérateurs       |Résolution     |
+|:------:|-----------------|---------------|
+|1       |() [] -> .       |Gauche à droite|
+|2       |! ~ ++ -- + - * &|Droite à gauche|
+|3       |* / %            |Gauche à droite|
+|4       |+ -              |Gauche à droite|
+|5       |<< >>            |Gauche à droite|
+|6       |< <= > >=        |Gauche à droite|
+|7       |== !=            |Gauche à droite|
+|8       |&                |Gauche à droite|
+|9       |^                |Gauche à droite|
+|10      |\|               |Gauche à droite|
+|11      |&&               |Gauche à droite|
+|12      |\|\|             |Gauche à droite|
+
+## Arithmétiques
+
+...
+
+### Unaires
+
+...
+
+### Binaires
+
+...
+
+## Relationnels
+
+...
+
+## Logiques
+
+...
+
+### Unaire
+
+...
+
+### Binaires
+
+...
