@@ -6,7 +6,7 @@ Ingénieur électrique, diplômé du MIT en 1941, Nathaniel Rochester commence �
 
 # Source
 
-Du code informatique écrit avec un langage de programmation est nommé « code source ».
+Le code source d'un programme en langage Assembleur est stocké dans des fichiers textes ayant, habituellement, « .asm » comme extension.
 
 ## Syntaxe
 
@@ -15,6 +15,16 @@ Exceptionnellement, deux syntaxes différentes sont utilisées pour le langage A
 Ayant été conçu dans les laboratoires Bell de AT&T, c'est le titre qui est donné à la première syntaxe. Le compilateur étant plus rudimentaire, cette syntaxe est un peu plus complexe.
 
 Avec la venue des premiers ordinateurs personnels par Intel, c'est ce titre qui est donné à la deuxième syntaxe. Les compilateurs étant un peu plus évolués, la syntaxe a été simplifiée pour la rendre un peu plus intuitive.
+
+C'est cette dernière qui sera utilisée pour dans les références ci-dessous.
+
+## Commentaire
+
+...
+
+## Bloc
+
+...
 
 # Instructions
 
