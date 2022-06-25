@@ -8,7 +8,7 @@ Les langages de programmation de bas niveau ont comme objectif d'être performan
 
 En 1988, le premier maliciel autorépliquant voit le jour sous le nom de « Morris ».
 
-*[Image]*
+![Ver Morris](Images/Morris.png)
 
 Pour s'autorépliquer, le ver Morris utilisait, entre autre, une faille de type débordement de tampon. Celle-ci se trouvait dans l'outil réseau, bien connu du monde Unix, « finger », programmé en langage C. Ce service permettait de connaître les utilisateurs connectés au poste de travail, mais aussi de demander de l'information à propos d'un utilisateur en particulier.
 
