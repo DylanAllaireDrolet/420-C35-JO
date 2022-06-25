@@ -36,13 +36,13 @@ L’utilisation de ce système, plutôt que le système décimal, s’explique p
 
 ### Conversions
 
-Malgré ça base minimaliste, le fonctionnement du système binaire est équivalent à celui du système décimal, et le nombre binaire 101010 peut être convertis de façon suivante:
+Malgré ça base minimaliste, le fonctionnement du système binaire est équivalent à celui du système décimal:
 
-*[Image]*
+![Décomposition](Images/BinaryDecomposition.png)
 
-La même logique peut être utilisée avec la base 2 afin de convertir le nombre binaire 101010 en décimal:
+La même logique peut donc être utilisée avec la base 2:
 
-*[Image]*
+![Décomposition](Images/BinaryBase.png)
 
 #### Décimal à Binaire
 
