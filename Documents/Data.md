@@ -48,7 +48,7 @@ La même logique peut donc être utilisée avec la base 2:
 
 Plutôt que de multiplier par la base, c'est la division entière qui est utilisée pour effectuer la conversion. Le reste à cette division est ajouté au résultat, de droite à gauche, jusqu'à ce que le nombre entier décimal soit 0:
 
-*[Image]*
+![Conversion](Images/DecToBin.png)
 
 ## Hexadécimal
 
