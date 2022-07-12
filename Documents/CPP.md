@@ -32,9 +32,9 @@ Le mot-clé « class » permet de déclarer une classe avec l'identificateur de 
 
 Les modificateurs d'accès permettent de rendre une classe robuste en limitant l'accès aux membres sensibles:
 
-| Accès   | Symbole | Description                                                  |
-|---------|:-------:|--------------------------------------------------------------|
-|private  |    -    | Accessible que de l'implémentation de la classe.             |
+| Accès   | Symbole | Description                                                     |
+|---------|:-------:|-----------------------------------------------------------------|
+|private  |    -    | Accessible que de l'implémentation de la classe.                |
 |protected|    #    | Accessible des implémentations de la classe et de ses dérivées. |
 |public   |    +    | Accessible de l'implémentation de la classe et de ses instances.|
 
@@ -50,13 +50,13 @@ L'implémentation d'une classe se fait dans son bloc de code.
 
 ### Données membres
 
-On nomme donnée membre les variables déclarées à l'intérieur d'une classe:
+On nomme « donnée membre » les variables déclarées à l'intérieur d'une classe:
 
-![Donnée membre](Images/ClassDataMember.png)
+![Donnée membre](Images/CPPDataMembers.png)
 
 ### Méthodes
 
-On nomme méthode les fonctions déclarées à l'intérieur d'une classe:
+On nomme « méthode » les fonctions déclarées à l'intérieur d'une classe:
 
 ![Méthode](Images/ClassMethod.png)
 
