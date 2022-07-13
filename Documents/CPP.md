@@ -44,10 +44,6 @@ Un modificateur d'accès s'applique à tout ce qui le suit:
 
 *« private » est appliqué par défaut si aucun modificateur d'accès n'est déclaré.*
 
-## Implémentation
-
-L'implémentation d'une classe se fait dans son bloc de code.
-
 ### Données membres
 
 On nomme « donnée membre » les variables déclarées à l'intérieur d'une classe:
@@ -58,7 +54,11 @@ On nomme « donnée membre » les variables déclarées à l'intérieur d'une cl
 
 On nomme « méthode » les fonctions déclarées à l'intérieur d'une classe:
 
-![Méthode](Images/ClassMethod.png)
+![Méthode](Images/CPPMethods.png)
+
+## Implémentation
+
+L'implémentation d'une classe peut se faire à l'intérieur comme à l'extérieur de son bloc de code.
 
 ### Constructeur
 
@@ -69,21 +69,21 @@ Puisqu'il s'agit d'une méthode que le compilateur doit différencier des autres
 - Aucun type de retour
 - Même identificateur que la classe
 
-![Constructeur](Images/ClassConstructor.png)
-
 Le constructeur est principalement utilisé pour initialiser les données membres:
 
-![Constructeur](Images/Constructor.png)
-
-*Pour différencier les données membres des paramètres, le mot-clé « this », représentant l'instance de la classe, peut être utilisé.*
+![Constructeur](Images/CPPConstructor.png)
 
 #### Défaut
 
-S'il n'a aucun paramètre, on le nomme « constructeur par défaut ».
+S'il n'a aucun paramètre, on le nomme « constructeur par défaut »:
+
+*[Image]*
 
 #### Copie
 
-S'il contient qu'un seul paramètre étant une référence du même type que la classe, on le nomme « constructeur de copie » puisqu'il permet de déterminer comment une instance est dupliquée.
+S'il contient qu'un seul paramètre étant une référence constante du même type que la classe, on le nomme « constructeur de copie » puisqu'il permet de déterminer comment une instance est dupliquée:
+
+*[Image]*
 
 ### Destructeur
 
@@ -97,7 +97,7 @@ Mêmes exigences que le constructeur, mais l'identificateur doit être précéd�
 
 L'instanciation consiste à allouer l'espace nécessaire en mémoire centrale et initialiser son contenu:
 
-![Instanciation](Images/instanciation.png)
+*[Image]*
 
 1. Allocation d'un espace en mémoire centrale pour stocker l'instance.
 2. Appel du constructeur de l'instance.
@@ -105,7 +105,9 @@ L'instanciation consiste à allouer l'espace nécessaire en mémoire centrale et
 
 ## Libération
 
-delete
+...
 
 1. Appel du destructeur.
 2. Libération de l'instance en mémoire centrale.
+
+*[Image]*
