@@ -36,7 +36,7 @@ Le processeur ne fait pas que contenir des registres, son utilité principale es
 
 L’architecture x64 permet d’affecter un registre ou un espace en mémoire centrale d’un autre registre ou d’un autre espace en mémoire centrale ou d’une constante.
 
-*[Image]*
+![MOV](Images/ASMMov.png)
 
 ## XOR
 
