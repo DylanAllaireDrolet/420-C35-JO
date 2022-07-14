@@ -20,7 +20,9 @@ C'est cette dernière qui sera utilisée pour dans les références ci-dessous.
 
 ## Commentaire
 
-...
+Contre intuitif avec la syntaxe de langages de plus haut niveau, le point-virgule permet de mettre en commentaire tout ce qui suit:
+
+![Commentaire](Images/ASMComment.png)
 
 ## Bloc
 
@@ -28,4 +30,55 @@ C'est cette dernière qui sera utilisée pour dans les références ci-dessous.
 
 # Instructions
 
-...
+Le processeur ne fait pas que contenir des registres, son utilité principale est d'exécuter des instructions.
+
+## MOV
+
+L’architecture x64 permet d’affecter un registre ou un espace en mémoire centrale d’un autre registre ou d’un autre espace en mémoire centrale ou d’une constante.
+
+*[Image]*
+
+## XOR
+
+L’architecture x64 permet d’effectuer des opérations logiques entre un registre ou un espace en mémoire centrale et un autre registre ou un autre espace en mémoire centrale ou une constante.
+
+*[Image]*
+
+## PUSH
+
+L’architecture x64 permet d'empiler la valeur d'un registre, d'une constante ou d'un espace en mémoire centrale.
+
+*[Image]*
+
+*Le registre « SP » est décrémenté lors de chaque empilement.*
+
+## POP
+
+L’architecture x64 permet de dépiler la valeur dans un registre ou un espace en mémoire centrale.
+
+*[Image]*
+
+*Le registre « SP » est incrémenté lors de chaque dépilement.*
+
+*[Image]*
+
+## CALL
+
+L’architecture x64 permet d'appeler des fonctions:
+
+*[Image]*
+
+Cette instruction effectue deux opérations :
+
+- Empilement de l'adresse contenue dans le registre « ip ».
+- Affectation du registre « ip » par l'adresse de la fonction.
+
+## RET
+
+Une fonction se termine par l'instruction « ret »:
+
+*[Image]*
+
+Cette instruction effectue une opération :
+
+- Dépilement dans le registre « ip ».
