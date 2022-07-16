@@ -48,7 +48,7 @@ L’architecture x64 permet d’effectuer des opérations logiques entre un regi
 
 L’architecture x64 permet d'empiler la valeur d'un registre, d'une constante ou d'un espace en mémoire centrale.
 
-*[Image]*
+![PUSH](Images/ASMPush.png)
 
 *Le registre « SP » est décrémenté lors de chaque empilement.*
 
