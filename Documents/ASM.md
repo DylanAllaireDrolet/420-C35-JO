@@ -42,7 +42,7 @@ L’architecture x64 permet d’affecter un registre ou un espace en mémoire ce
 
 L’architecture x64 permet d’effectuer des opérations logiques entre un registre ou un espace en mémoire centrale et un autre registre ou un autre espace en mémoire centrale ou une constante.
 
-*[Image]*
+![XOR](Images/ASMXor.png)
 
 ## PUSH
 
