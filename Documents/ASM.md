@@ -56,7 +56,7 @@ L’architecture x64 permet d'empiler la valeur d'un registre, d'une constante o
 
 L’architecture x64 permet de dépiler la valeur dans un registre ou un espace en mémoire centrale.
 
-*[Image]*
+![POP](Images/ASMPop.png)
 
 *Le registre « SP » est incrémenté lors de chaque dépilement.*
 
