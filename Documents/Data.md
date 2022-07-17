@@ -50,6 +50,24 @@ Plutôt que de multiplier par la base, c'est la division entière qui est utilis
 
 ![Conversion](Images/DecToBin.png)
 
+### Signe
+
+Les valeurs entières étant représentées par le système binaire en mémoire centrale, celles-ci ne peuvent qu'être positives puisqu’il n’y a pas de signe dans ce système, que des 0 et des 1.
+
+Le bit le plus fort est donc utilisé afin d'indiquer si la valeur est positive (0) ou négative (1). Mais cette façon de faire comporte des problématiques: il y a deux 0 (un positif et un négatif) et les résultats d'opérations arithmétiques ne sont plus valides lorsque des valeurs négatives sont impliquées:
+
+*[Image]*
+
+#### Complément à deux
+
+Pour pallier ces problèmes, le complément à deux est utilisé pour effectuer la négation, c'est-à-dire que tous les bits sont inversés, puis 1 est ajouté. Donc, pour représenter la valeur négative -2, nous devons appliquer le complément à deux sur la valeur 2:
+
+*[Image]*
+
+Donc chaque fois que le bit le plus fort est 1, c'est que la valeur est encodée avec le complément à deux:
+
+*[Image]*
+
 ## Hexadécimal
 
 Ce système de numération est régulièrement utilisé en informatique afin de représenter de grandes valeurs de façon plus concise.
