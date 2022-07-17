@@ -77,7 +77,7 @@ Cette instruction effectue deux opérations :
 
 Une fonction se termine par l'instruction « ret »:
 
-*[Image]*
+![POP](Images/ASMRet.png)
 
 Cette instruction effectue une opération :
 
