@@ -26,7 +26,9 @@ Contre intuitif avec la syntaxe de langages de plus haut niveau, le point-virgul
 
 ## Bloc
 
-...
+Il n'y a pas vraiment de bloc de code en langage assembleur, mais il est possible de déclarer des étiquettes comme références:
+
+![Étiquette](Images/ASMLabel.png)
 
 # Instructions
 
