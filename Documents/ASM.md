@@ -62,13 +62,11 @@ L’architecture x64 permet de dépiler la valeur dans un registre ou un espace 
 
 *Le registre « SP » est incrémenté lors de chaque dépilement.*
 
-*[Image]*
-
 ## CALL
 
 L’architecture x64 permet d'appeler des fonctions:
 
-*[Image]*
+![POP](Images/ASMCall.png)
 
 Cette instruction effectue deux opérations :
 
