@@ -30,6 +30,21 @@ Il n'y a pas vraiment de bloc de code en langage assembleur, mais il est possibl
 
 ![Étiquette](Images/ASMLabel.png)
 
+# Données
+
+Puisque toutes les données sont sous forme binaire, il est difficile de différencier les valeurs.
+
+## Types
+
+Le langage Assembleur offre quelques types primitifs pour représenter les valeurs:
+
+|Type              |Donnée    |Taille  |
+|:-----------------|----------|:-------|
+|byte              |db        |1 octet |
+|word              |dw        |2 octets|
+|dword             |dd        |4 octets|
+|qword             |dq        |8 octets|
+
 # Instructions
 
 Le processeur ne fait pas que contenir des registres, son utilité principale est d'exécuter des instructions.

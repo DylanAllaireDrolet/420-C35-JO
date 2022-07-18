@@ -56,7 +56,7 @@ Les valeurs entières étant représentées par le système binaire en mémoire 
 
 Le bit le plus fort est donc utilisé afin d'indiquer si la valeur est positive (0) ou négative (1). Mais cette façon de faire comporte des problématiques: il y a deux 0 (un positif et un négatif) et les résultats d'opérations arithmétiques ne sont plus valides lorsque des valeurs négatives sont impliquées:
 
-*[Image]*
+![Invalide](Images/WrongBinaryAdd.png)
 
 #### Complément à deux
 
