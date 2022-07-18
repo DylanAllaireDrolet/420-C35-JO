@@ -32,18 +32,18 @@ Il n'y a pas vraiment de bloc de code en langage assembleur, mais il est possibl
 
 # Données
 
-Puisque toutes les données sont sous forme binaire, il est difficile de différencier les valeurs.
+Puisque les données sont des suites de bits, il est difficile de différencier les valeurs et leur taille.
 
 ## Types
 
-Le langage Assembleur offre quelques types primitifs pour représenter les valeurs:
+Le langage Assembleur offre quelques types pour identifier la taille:
 
-|Type              |Donnée    |Taille  |
-|:-----------------|----------|:-------|
-|byte              |db        |1 octet |
-|word              |dw        |2 octets|
-|dword             |dd        |4 octets|
-|qword             |dq        |8 octets|
+|Type  |Donnée |Taille  |
+|:-----|-------|:-------|
+|byte  |db     |1 octet |
+|word  |dw     |2 octets|
+|dword |dd     |4 octets|
+|qword |dq     |8 octets|
 
 # Instructions
 
