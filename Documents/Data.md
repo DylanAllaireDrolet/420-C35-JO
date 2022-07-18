@@ -60,11 +60,11 @@ Le bit le plus fort est donc utilisé afin d'indiquer si la valeur est positive 
 
 #### Complément à deux
 
-Pour pallier ces problèmes, le complément à deux est utilisé pour effectuer la négation, c'est-à-dire que tous les bits sont inversés, puis 1 est ajouté. Donc, pour représenter la valeur négative -2, nous devons appliquer le complément à deux sur la valeur 2:
+Pour pallier ces problèmes, le complément à deux est utilisé pour effectuer la négation, c'est-à-dire que tous les bits sont inversés, puis 1 est ajouté. Pour représenter la valeur négative -2, nous devons appliquer le complément à deux à la valeur 2:
 
 ![Complément à deux](Images/BinaryTwosComplement.png)
 
-Donc chaque fois que le bit le plus fort est 1, c'est que la valeur est encodée avec le complément à deux:
+Donc chaque fois que le bit le plus fort est 1, c'est que la valeur est négative et encodée avec le complément à deux:
 
 ![Valide](Images/GoodBinarySum.png)
 
