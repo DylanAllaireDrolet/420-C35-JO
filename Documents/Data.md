@@ -68,6 +68,26 @@ Donc chaque fois que le bit le plus fort est 1, c'est que la valeur est négativ
 
 ![Valide](Images/GoodBinarySum.png)
 
+### Plage
+
+L'octet est l'unité de base en informatique, mais il est possible d'utiliser plusieurs octets de suite afin de représenter une valeur.
+
+Pour connaître une plage de valeurs, il suffit d'utiliser la base 2 et de l'élever selon le nombre de bits:
+
+&nbsp;*2*<sup>**8**</sup> = 256, donc une plage de valeur entre **0** et **255** inclusivement.<br>
+*2*<sup>**16**</sup> = 65 536, donc une plage de valeur entre **0** et **65 535** inclusivement.<br>
+*2*<sup>**32**</sup> = 4 294 967 296, donc une plage de valeur entre **0** et **4 294 967 295** inclusivement.<br>
+*2*<sup>**64**</sup> = 18 446 744 073 709 551 616, donc une plage de valeur entre **0** et **18 446 744 073 709 551 615** inclusivement.
+
+#### Signe
+
+Les plages ci-hautes sont valides que pour des valeurs dites « non signées ». Puisque le bit le plus fort est utilisé pour les valeurs signées, la plage est donc affectée:
+
+&nbsp;*2*<sup>**7**</sup> = 128, donc une plage de valeur entre **-128** et **127** inclusivement.<br>
+*2*<sup>**15**</sup> = 32 768, donc une plage de valeur entre **-32 768** et **32 767** inclusivement.<br>
+*2*<sup>**31**</sup> = 2 147 483 648, donc une plage de valeur entre **-2 147 483 648** et **2 147 483 647** inclusivement.<br>
+*2*<sup>**63**</sup> = 9 223 372 036 854 775 808, donc une plage de valeur entre **-9 223 372 036 854 775 808** et **9 223 372 036 854 775 807** inclusivement.
+
 ## Hexadécimal
 
 Ce système de numération est régulièrement utilisé en informatique afin de représenter de grandes valeurs de façon plus concise.
