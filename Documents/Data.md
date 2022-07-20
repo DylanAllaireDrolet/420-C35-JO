@@ -93,3 +93,32 @@ Les plages ci-hautes sont valides que pour des valeurs dites « non signées ».
 Ce système de numération est régulièrement utilisé en informatique afin de représenter de grandes valeurs de façon plus concise.
 
 ...
+
+# Représentations
+
+Puisque toutes les données sont sous forme binaire, il n'est pas possible pour un ordinateur de représenter autre chose que des valeurs entières. Il est impossible de différencier un booléen, un caractère ou un réel d’un entier.
+
+## Booléen
+
+Bien que le système binaire soit parfaitement approprié pour ce type de données, il n'y a pas de valeur « vraie (true) » et « fausse (false) ». Plutôt, la valeur 0 permet de représenter « false », et toutes les autres valeurs représentent « true ».
+
+## Caractère
+
+Les caractères non plus ne sont pas des valeurs. Des tables sont plutôt utilisées, selon la langue ou les caractères à utiliser, afin d'associer chaque caractère à une valeur entière. La première, et plus connue: la table [ASCII](http://etudions.ca/420-201-RE/blob/main/Documents/ASCII.md).
+
+### Chaîne de caractères
+
+Une chaîne de caractères n’est qu’en réalité une suite de caractères se terminant par la valeur 0.
+
+## Réel
+
+La représentation des réels est un peu plus particulière et utilise, à la base, une norme « IEEE », principalement la 754.
+
+La plupart des langages de programmation comportent deux types réels. À simple précision (de 6 à 9 chiffres après la virgule):
+
+*[Image]*
+
+Et à double précision (de 15 à 17 chiffres après la virgule):
+
+*[Image]*
+
