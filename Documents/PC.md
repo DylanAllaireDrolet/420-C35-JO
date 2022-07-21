@@ -16,12 +16,24 @@
 
 # Mémoire centrale
 
-La mémoire centrale « RAM (Random Access Memory) », est la mémoire à court terme de l'ordinateur et permet de lire et stocker des données lors des opérations du processeur.
+La « RAM (Random Access Memory) » est la mémoire à court terme de l'ordinateur et permet d'échanger des données très rapidement avec le processeur et les prériphériques.
 
-*[Image]*
+Chaque octet de la mémoire centrale est associé à une adresse, généralement exprimée en hexadécimal:
 
-Chaque octet de la mémoire centrale est associé à une adresse, exprimée en hexadécimal ci-dessus.
+![RAM](Images/RAM.png)
+
+## Boutisme
+
+...
 
 # Processeur
 
 ...
+
+*[Image]*
+
+## Registres
+
+...
+
+*[Image]*
