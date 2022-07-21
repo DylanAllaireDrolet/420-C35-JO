@@ -75,7 +75,7 @@ Le constructeur est principalement utilisé pour initialiser les données membre
 
 #### Défaut
 
-S'il n'a aucun paramètre, on le nomme « constructeur par défaut »:
+S'il n'a aucun paramètre, ou que ceux-ci ont tous une valeur par défaut, on le nomme « constructeur par défaut »:
 
 *[Image]*
 
