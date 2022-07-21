@@ -38,12 +38,21 @@ Puisque les données sont des suites de bits, il est difficile de différencier 
 
 Le langage Assembleur offre quelques types pour identifier la taille:
 
-|Type  |Donnée |Taille  |
-|:-----|-------|:-------|
-|byte  |db     |1 octet |
-|word  |dw     |2 octets|
-|dword |dd     |4 octets|
-|qword |dq     |8 octets|
+|Type  |Taille  |
+|:-----|:-------|
+|byte  |1 octet |
+|word  |2 octets|
+|dword |4 octets|
+|qword |8 octets|
+
+Afin d'utiliser des valeurs pouvant être négatives:
+
+|Type   |Taille  |
+|:------|:-------|
+|sbyte  |1 octet |
+|sword  |2 octets|
+|sdword |4 octets|
+|sqword |8 octets|
 
 # Instructions
 
