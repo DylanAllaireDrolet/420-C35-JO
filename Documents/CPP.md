@@ -97,7 +97,7 @@ Mêmes exigences que le constructeur, mais l'identificateur doit être précéd�
 
 L'instanciation consiste à allouer l'espace nécessaire en mémoire centrale et initialiser son contenu:
 
-*[Image]*
+![Instanciation](Images/CPPNew.png)
 
 1. Allocation d'un espace en mémoire centrale pour stocker l'instance.
 2. Appel du constructeur de l'instance.
@@ -107,7 +107,7 @@ L'instanciation consiste à allouer l'espace nécessaire en mémoire centrale et
 
 ...
 
+![Libération](Images/CPPDelete.png)
+
 1. Appel du destructeur.
 2. Libération de l'instance en mémoire centrale.
-
-*[Image]*
