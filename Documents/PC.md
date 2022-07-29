@@ -1,18 +1,20 @@
+Façon dont sont organisées les composantes d'un ordinateur personnel.
+
 # Architecture
 
-...
+Les deux architectures les plus connues comportent les mêmes composantes et sont organisées de façon similaire.
 
 ## Von Neumann
 
 ...
 
-*[Image]*
+![Von Neumann](Images/VonNeumann.png)
 
 ## Harvard
 
 ...
 
-*[Image]*
+![Harvard](Images/Harvard.png)
 
 # Mémoire centrale
 
