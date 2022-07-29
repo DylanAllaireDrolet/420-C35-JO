@@ -1,18 +1,18 @@
-Façon dont sont organisées les composantes d'un ordinateur personnel.
+Unités système d'un ordinateur personnel.
 
 # Architecture
 
-Les deux architectures les plus connues comportent les mêmes composantes et sont organisées de façon similaire.
+Les deux architectures communes comportent les mêmes composantes et sont organisées de façon très similaire.
 
 ## Von Neumann
 
-...
+Plus lente et moins sécuritaire, cette architecture reste la plus utilisée puisqu'elle est plus simple, donc moins couteuse, et moins restraignante:
 
 ![Von Neumann](Images/VonNeumann.png)
 
 ## Harvard
 
-...
+La principale différence avec l'architecture précédente est que les instructions et les données se trouvent dans deux mémoires distinctes:
 
 ![Harvard](Images/Harvard.png)
 
@@ -41,3 +41,15 @@ Le gros boutisme est plus facilement lisible par la majorité de la population. 
 ...
 
 *[Image]*
+
+## Instructions
+
+...
+
+### CISC
+
+...
+
+### RISC
+
+...
