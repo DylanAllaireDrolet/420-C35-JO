@@ -120,5 +120,4 @@ La plupart des langages de programmation comportent deux types réels. À simple
 
 Et à double précision (de 15 à 17 chiffres après la virgule):
 
-*[Image]*
-
+![Double](Images/Double.png)
