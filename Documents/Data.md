@@ -116,7 +116,7 @@ La représentation des réels est un peu plus particulière et utilise, à la ba
 
 La plupart des langages de programmation comportent deux types réels. À simple précision (de 6 à 9 chiffres après la virgule):
 
-*[Image]*
+![Float](Images/Float.png)
 
 Et à double précision (de 15 à 17 chiffres après la virgule):
 
