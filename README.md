@@ -17,8 +17,7 @@ Références relatives au cours:
 - [Assembleur](Documents/ASM.md)
 - [C](http://etudions.ca/420-201-RE/blob/main/Documents/C.md)
 - [C++](Documents/CPP.md)
-- [Rust](Documents/Rust.md)
-- [Python](Documents/Python.md)
+- [Java](Documents/Java.md)
 
 ## Sécurité logicielle
 
