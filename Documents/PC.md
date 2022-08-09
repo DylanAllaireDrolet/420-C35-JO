@@ -40,7 +40,7 @@ Le gros boutisme est plus facilement lisible par la majorité de la population. 
 
 ...
 
-*[Image]*
+![Registre](Images/Register.png)
 
 ## Instructions
 
