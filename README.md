@@ -9,7 +9,7 @@ Références relatives au cours:
 ## Informatique
 
 - [Données](Documents/Data.md)
-- [Machine](Documents/PC.md)
+- [Ordinateur](Documents/PC.md)
 - [Exécution](Documents/Execution.md)
 
 ## Langages de programmation
