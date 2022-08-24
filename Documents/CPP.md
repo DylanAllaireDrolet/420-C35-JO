@@ -77,13 +77,13 @@ Le constructeur est principalement utilisé pour initialiser les données membre
 
 S'il n'a aucun paramètre, ou que ceux-ci ont tous une valeur par défaut, on le nomme « constructeur par défaut »:
 
-*[Image]*
+![Constructeur par défaut](Images/CPPDefaultConstructor.png)
 
 #### Copie
 
 S'il contient qu'un seul paramètre étant une référence constante du même type que la classe, on le nomme « constructeur de copie » puisqu'il permet de déterminer comment une instance est dupliquée:
 
-*[Image]*
+![Constructeur de copie](Images/CPPCopyConstructor.png)
 
 ### Destructeur
 
