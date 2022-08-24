@@ -115,6 +115,62 @@ Puisque les statiques appartiennent à une classe plutôt qu'à un instance, on 
 
 *On nomme « classe statique » une classe qui comporte que des membres statiques*
 
+## Dérivation
+
+Il est possible de dériver une classe d'une ou plusieurs autres classes.
+
+### U.M.L.
+
+La notation UML représente une dérivation par un triangle vide à l'extrémité de la relation:
+
+![Dérivation](Images/UMLDerivation.png)
+
+### Déclaration
+
+Afin qu'une classe dérive d'une autre, l'identificateur de cette classe doit être précédé du caractère « : » et du type d'héritage suite à la déclaration de la classe dérivée :
+
+![Dérivation](Images/CPPDerivation.png)
+
+### Héritage
+
+Une classe dérivée hérite de tous les membres, autant les données que les méthodes, de ses classes parents.
+
+#### Modificateurs d'accès
+
+Un modificateur d'accès peut aussi être spécifié afin d'indiquer le type de dérivation :
+
+|Dérivation|Description                                                      |
+|----------|-----------------------------------------------------------------|
+|private   |Tous les membres publics de la classe parent deviennent privés.  |
+|protected |Tous les membres publics de la classe parent deviennent protégés.|
+|public    |Tous les modificateurs d'accès restent les mêmes.                |
+
+*« private » est appliqué par défaut si aucun modificateur d'héritage n'est déclaré.*
+
+### Constructeur
+
+Lors de dérivation, les constructeurs de la hiérarchie sont appelés en cascade du haut vers le bas. Mais, s'il ne s'agit pas de constructeurs par défaut, il faut spécifier les paramètres du constructeur parent à utiliser, et ce, avec une syntaxe très similaire à celle de la dérivation :
+
+![Appel du constructeur parent](Images/CPPBaseConstructorCall.png)
+
+## Polymorphisme
+
+Le terme polymorphisme signifie « plusieurs formes », et c'est ce principe qui fait la force du paradigme orienté objet.
+
+### Routage
+
+Une méthode virtuelle permet d'indiquer que ses appels devront être routés vers la forme d'origine de l'instance:
+
+...
+
+### Abstraction
+
+Il n'y a qu'une seule différence entre une classe abstraite et une classe normale : il n'est pas possible d'instancier une classe abstraite.
+
+En C++, une classe est abstraite si elle contient au moins une méthode virtuelle pure:
+
+*[Image]*
+
 # Instance
 
 ...
