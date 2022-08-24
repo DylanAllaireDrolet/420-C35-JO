@@ -89,6 +89,32 @@ S'il contient qu'un seul paramètre étant une référence constante du même ty
 
 Mêmes exigences que le constructeur, mais l'identificateur doit être précédé du caractère « ~ ». Et est appelée automatiquement lors de la libération.
 
+## Statiques
+
+Les données membres et les méthodes déclarées en tant que statiques appartiennent à une classe plutôt qu'à des instances.
+
+### Déclaration
+
+Afin de déclarer une donnée membre ou une méthode statique, il suffit de faire précéder la déclaration par le terme « static » :
+
+![Statique](Images/CPPStatic.png)
+
+### Initialisation
+
+Bien que cette syntaxe soit tout à fait valide, le compilateur ne reconnaîtra pas la donnée membre privée statique « donneeMembreStatique ».
+
+L'espace mémoire des données membres est alloué lors de l'instanciation et les données sont initialisées lors de l'appel du constructeur. Mais puisque les données membres statiques appartiennent à la classe et non aux instances, l'allocation de leur espace mémoire et leur initialisation doit se faire autrement, soit immédiatement après la déclaration de la classe :
+
+![Initialisation statique](Images/CPPStaticInit.png)
+
+### Accès
+
+Puisque les statiques appartiennent à une classe plutôt qu'à un instance, on ne peut pas non plus accéder à une donnée membre ou une méthode statique à partir de l'instance suivi de « . » ou « -> ». Il faudra plutôt utiliser l'identificateur de la classe suivi des caractères « :: » :
+
+![Appel statique](Images/CPPStaticCall.png)
+
+*On nomme « classe statique » une classe qui comporte que des membres statiques*
+
 # Instance
 
 ...
