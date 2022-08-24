@@ -159,9 +159,9 @@ Le terme polymorphisme signifie « plusieurs formes », et c'est ce principe qui
 
 ### Routage
 
-Une méthode virtuelle permet d'indiquer que ses appels devront être routés vers la forme d'origine de l'instance:
+Une méthode virtuelle permet d'indiquer que ses appels seront routés vers la forme d'origine de l'instance:
 
-...
+![Virtuelle](Images/CPPVirtual.png)
 
 ### Abstraction
 
@@ -169,7 +169,7 @@ Il n'y a qu'une seule différence entre une classe abstraite et une classe norma
 
 En C++, une classe est abstraite si elle contient au moins une méthode virtuelle pure:
 
-*[Image]*
+![Virtuelle pure](Images/CPPPureVirtual.png)
 
 # Instance
 
