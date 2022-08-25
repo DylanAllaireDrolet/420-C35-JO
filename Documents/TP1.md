@@ -82,7 +82,7 @@ Et le résultat avec les arguments « -o 97 -l 28 -f texte.txt » sera:
 
 *Il est à noter, dans la section ASCII, que les caractères de contrôle (les sauts de ligne par exemple) doivent être remplacés par le caractère '.'.*
 
-### Affichage formatée
+### Affichage formaté
 
 Plutôt que d'utiliser « print » et « println », la méthode « printf » permet de formater l'affichage.
 
@@ -106,11 +106,7 @@ Il est possible, à l'aide du programme développé dans ce travail, de détermi
 
 Un argument -s (facultatif, valeur par défaut: 4) pourrait permettre d'afficher les chaines de caractères du fichier, plutôt que ses données, selon la taille minimum passée en paramètre.
 
-```java
-public static void printStrings(byte minLength) {
-  // TODO: Affichage des chaînes de caractères.
-}
-```
+![Chaînes de caractères](Images/TP1PrintStrings.png)
 
 Par exemple, le résultat avec les arguments « -l 534 -f CrackMe.exe -s » sera:
 
@@ -131,11 +127,7 @@ Outre les fichiers texte, le contenu de fichiers binaires est, pour la grande ma
 
 Un argument -i (facultatif, aucun paramètre) pourrait permettre d'afficher des informations sur un exécutable (et d'autres types si vous désirez).
 
-```java
-public static void printFormat() {
-  // TODO: Affichage du format d'exécutable.
-}
-```
+![Format](Images/TP1PrintFormat.png)
 
 Par exemple, le résultat avec les arguments « -f ProgrammeA.exe -i » sera:
 
