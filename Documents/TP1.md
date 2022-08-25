@@ -96,11 +96,7 @@ Il est possible, en ligne de commande, de modifier la couleur d'affichage des ca
 
 ![Couleurs](Images/TP1Colors.png)
 
-## Défis
-
-La visualisation des données brutes permet d'apprendre et comprendre comment elles sont interprétées, comment les programmes sont structurés afin d'être exécutés, et déduire certaines failles de sécurité possibles.
-
-### Chaînes de caractères
+## Chaînes de caractères
 
 Il est possible, à l'aide du programme développé dans ce travail, de déterminer le mot de passe du programme « [CrackMe.exe](Files/CrackMe.exe) ».
 
@@ -110,11 +106,11 @@ Un argument -s (facultatif, valeur par défaut: 4) pourrait permettre d'afficher
 
 Par exemple, le résultat avec les arguments « -l 534 -f CrackMe.exe -s » sera:
 
-*[Image]*
+![Chaînes de caractères](Images/TP1Strings.png)
 
 *Il est à noter que dans l'exemple ci-haut, les caractères de contrôle des chaînes de caractères (le retour de chariot et le saut de ligne par exemple) sont remplacés par leur balise en programmation. Mais il est permis de les ignorer afin de réduire le temps de développement de ce travail.*
 
-### Format
+## Format
 
 Il est possible, à l'aide du programme développé dans ce travail, de déterminer le système d'exploitation et le processeur cible des programmes « ProgrammeX.exe »:
 
@@ -131,14 +127,14 @@ Un argument -i (facultatif, aucun paramètre) pourrait permettre d'afficher des 
 
 Par exemple, le résultat avec les arguments « -f ProgrammeA.exe -i » sera:
 
-*[Image]*
+![Format](Images/TP1Format.png)
 
 *Il est à noter que la section concernant le « boutisme » n'est pas à négliger pour les valeurs de certaines structures.*
 
 ## Barème
 
 |Évaluation|Pondération|
-|----------|:---------:|
+|:---------|:---------:|
 |Gestion des arguments et paramètres|/ 2|
 |Gestion du fichier|/ 2|
 |Utilisation de « printf »|/ 1|
