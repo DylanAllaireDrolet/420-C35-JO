@@ -47,11 +47,11 @@ Sinon, pour toutes exceptions ou mauvaise utilisation, la procédure « printUsa
 
 ## Arguments
 
-Il est possible de passer des paramètres lors de l'exécution d'un programme, ce que l'on nomme des arguments. Sous l'éditeur « IntelliJ IDEA », les arguments peuvent être spécifiés en éditant la configuration de compilation:
+Il est possible de passer des arguments lors de l'exécution d'un programme. Par exemple, sous l'éditeur « IntelliJ IDEA », les arguments peuvent être spécifiés en éditant la configuration de compilation:
 
-*[Image]*
+![Configuration](Images/TP1IDEAConfiguration.png)
 
-*[Image]*
+![Arguments](Images/TP1IDEAArguments.png)
 
 La procédure principale comporte un paramètre « args », qui consiste en un tableau de chaînes de caractères, dans lequel sont stockés automatiquement les arguments passés au programme. Il serait possible de les afficher de cette façon:
 
