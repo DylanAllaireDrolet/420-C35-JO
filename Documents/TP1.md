@@ -65,12 +65,12 @@ La procédure principale comporte un paramètre « args », qui consiste en un t
 Contenu d'un fichier texte
 afin de tester mon premier atelier
 du cours de Programmation III
-de Techniques de l'Informatiques.
+de Techniques de l'Informatique.
 ```
 
 Le résultat avec l'argument « -f texte.txt » sera:
 
-*[Image]*
+![Exemple](Images/TP1Exemple.png)
 
 Le résultat avec les arguments « -o 75 -l 18 -f texte.txt » sera:
 
