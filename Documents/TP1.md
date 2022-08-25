@@ -23,13 +23,13 @@ void seek(long) | Positionnement dans le fichier à l'octet passé en paramètre
 
 ## Procédures
 
-La procédure principale devra récupérer les arguments possibles :
+La procédure principale devra récupérer les arguments possibles:
 
-- -o (facultatif, valeur par défaut : 0)
-- -l (facultatif, valeur par défaut : taille du fichier - le décalage)
+- -o (facultatif, valeur par défaut: 0)
+- -l (facultatif, valeur par défaut: taille du fichier - le décalage)
 - -f (obligatoire)
 
-Elle devra aussi les valider :
+Elle devra aussi les valider:
 
 - La valeur du décalage (-o) doit être >= 0 et < que la taille du fichier.
 - La valeur de la taille (-l) doit être > 0 et < que la taille du fichier - le décalage.
@@ -37,11 +37,11 @@ Elle devra aussi les valider :
 
 ![Fonction principale](Images/TP1Main.png)
 
-Si les arguments sont valides et le fichier ouvert, la procédure « printData » doit être appelée afin d'afficher les données demandées :
+Si les arguments sont valides et le fichier ouvert, la procédure « printData » doit être appelée afin d'afficher les données demandées:
 
 ![Données](Images/TP1PrintData.png)
 
-Sinon, pour toutes exceptions ou mauvaise utilisation, la procédure « printUsage » doit être appelée afin d'afficher les indications d'utilisation :
+Sinon, pour toutes exceptions ou mauvaise utilisation, la procédure « printUsage » doit être appelée afin d'afficher les indications d'utilisation:
 
 ![Indications](Images/TP1PrintUsage.png)
 
@@ -80,17 +80,17 @@ Et le résultat avec les arguments « -o 97 -l 28 -f texte.txt » sera:
 
 ![Exemple](Images/TP1ExempleB.png)
 
-*Il est à noter, dans la section ASCII, que les caractères de contrôle (les sauts de ligne par exemple) doivent être remplacés par le caractère « . ».*
+*Il est à noter, dans la section ASCII, que les caractères de contrôle (les sauts de ligne par exemple) doivent être remplacés par le caractère '.'.*
 
 ### Affichage formatée
 
-Plutôt que d'utiliser « println », la méthode « printf » permet de formater l'affichage.
+Plutôt que d'utiliser « print » et « println », la méthode « printf » permet de formater l'affichage.
 
 ```java
 System.out.printf("Affichage formatée.\n");
 ```
 
-**Consultez les documentations à son sujet, elle vous permettra de réduire de beaucoup les traitements nécessaires à l'affichage, et réduira considérablement le temps nécessaire à la réalisation de ce travail.**
+**Consultez les documentations à son sujet! Sa maîtrise vous permettra de réduire de beaucoup les traitements nécessaires à l'affichage, et réduira considérablement le temps nécessaire à la réalisation de ce travail.**
 
 ### Couleurs
 
@@ -108,9 +108,9 @@ La visualisation des données brutes permet d'apprendre et comprendre comment el
 
 ### Chaînes de caractères
 
-Il est possible, à l'aide du programme développé dans cet atelier, de déterminer le mot de passe du programme « ![CrackMe1.exe](Fichiers/CrackMe1.exe) ».
+Il est possible, à l'aide du programme développé dans ce travail, de déterminer le mot de passe du programme « ![CrackMe.exe](Files/CrackMe.exe) ».
 
-Un argument -s (facultatif, valeur par défaut : 4) pourrait permettre d'afficher les chaines de caractères du fichier, plutôt que ses données, selon la taille minimum passée en paramètre.
+Un argument -s (facultatif, valeur par défaut: 4) pourrait permettre d'afficher les chaines de caractères du fichier, plutôt que ses données, selon la taille minimum passée en paramètre.
 
 ```java
 public static void printStrings(byte minLength) {
@@ -118,20 +118,20 @@ public static void printStrings(byte minLength) {
 }
 ```
 
-Par exemple, le résultat avec les arguments « -l 534 -f CrackMe1.exe -s » sera:
+Par exemple, le résultat avec les arguments « -l 534 -f CrackMe.exe -s » sera:
 
 *[Image]*
 
-*Il est à noter que dans l'exemple ci-haut, les caractères de contrôle des chaînes de caractères (le retour de chariot et le saut de ligne par exemple) sont remplacés par leur balise en programmation. Mais il est permis de les ignorer afin de réduire le temps de développement.*
+*Il est à noter que dans l'exemple ci-haut, les caractères de contrôle des chaînes de caractères (le retour de chariot et le saut de ligne par exemple) sont remplacés par leur balise en programmation. Mais il est permis de les ignorer afin de réduire le temps de développement de ce travail.*
 
 ### Format
 
-Il est possible, à l'aide du programme développé dans cet atelier, de déterminer le système d'exploitation et le processeur cible des programmes « ProgrammeX.exe »:
+Il est possible, à l'aide du programme développé dans ce travail, de déterminer le système d'exploitation et le processeur cible des programmes « ProgrammeX.exe »:
 
-- ![ProgrammeA.exe](Fichiers/ProgrammeA.exe)
-- ![ProgrammeB.exe](Fichiers/ProgrammeB.exe)
-- ![ProgrammeC.exe](Fichiers/ProgrammeC.exe)
-- ![ProgrammeD.exe](Fichiers/ProgrammeD.exe)
+- ![ProgrammeA.exe](Files/ProgrammeA.exe)
+- ![ProgrammeB.exe](Files/ProgrammeB.exe)
+- ![ProgrammeC.exe](Files/ProgrammeC.exe)
+- ![ProgrammeD.exe](Files/ProgrammeD.exe)
 
 Outre les fichiers texte, le contenu de fichiers binaires est, pour la grande majorité, structuré selon le type de contenu, ce que l'on nomme « format ». Dans le contexte de la programmation, ce sont principalement des fichiers exécutables qui sont produits, et, tout comme les autres, ceux-ci sont structurés selon un format particulier.
 
@@ -143,11 +143,11 @@ public static void printFormat() {
 }
 ```
 
-Par exemple, le résultat avec les arguments « -f ProgrammeA.exe -i » sera :
+Par exemple, le résultat avec les arguments « -f ProgrammeA.exe -i » sera:
 
 *[Image]*
 
-*Il est à noter que le chapitre concernant le « boutisme » n'est pas à négliger pour les valeurs de certaines structures.*
+*Il est à noter que la section concernant le « boutisme » n'est pas à négliger pour les valeurs de certaines structures.*
 
 ## Barème
 
