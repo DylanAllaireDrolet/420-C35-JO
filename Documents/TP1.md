@@ -86,9 +86,7 @@ Et le résultat avec les arguments « -o 97 -l 28 -f texte.txt » sera:
 
 Plutôt que d'utiliser « print » et « println », la méthode « printf » permet de formater l'affichage.
 
-```java
-System.out.printf("Affichage formatée.\n");
-```
+![printf](Images/TP1Printf.png)
 
 **Consultez les documentations à son sujet! Sa maîtrise vous permettra de réduire de beaucoup les traitements nécessaires à l'affichage, et réduira considérablement le temps nécessaire à la réalisation de ce travail.**
 
@@ -96,11 +94,7 @@ System.out.printf("Affichage formatée.\n");
 
 Il est possible, en ligne de commande, de modifier la couleur d'affichage des caractères à l'aide d'une balise spéciale:
 
-```java
-System.out.println("\u001B[33m Jaune");
-System.out.println("\u001B[36m Cyan");
-System.out.println("\u001B[37m Blanc");
-```
+![Couleurs](Images/TP1Colors.png)
 
 ## Défis
 
@@ -108,7 +102,7 @@ La visualisation des données brutes permet d'apprendre et comprendre comment el
 
 ### Chaînes de caractères
 
-Il est possible, à l'aide du programme développé dans ce travail, de déterminer le mot de passe du programme « ![CrackMe.exe](Files/CrackMe.exe) ».
+Il est possible, à l'aide du programme développé dans ce travail, de déterminer le mot de passe du programme « [CrackMe.exe](Files/CrackMe.exe) ».
 
 Un argument -s (facultatif, valeur par défaut: 4) pourrait permettre d'afficher les chaines de caractères du fichier, plutôt que ses données, selon la taille minimum passée en paramètre.
 
@@ -128,10 +122,10 @@ Par exemple, le résultat avec les arguments « -l 534 -f CrackMe.exe -s » sera
 
 Il est possible, à l'aide du programme développé dans ce travail, de déterminer le système d'exploitation et le processeur cible des programmes « ProgrammeX.exe »:
 
-- ![ProgrammeA.exe](Files/ProgrammeA.exe)
-- ![ProgrammeB.exe](Files/ProgrammeB.exe)
-- ![ProgrammeC.exe](Files/ProgrammeC.exe)
-- ![ProgrammeD.exe](Files/ProgrammeD.exe)
+- [ProgrammeA.exe](Files/ProgrammeA.exe)
+- [ProgrammeB.exe](Files/ProgrammeB.exe)
+- [ProgrammeC.exe](Files/ProgrammeC.exe)
+- [ProgrammeD.exe](Files/ProgrammeD.exe)
 
 Outre les fichiers texte, le contenu de fichiers binaires est, pour la grande majorité, structuré selon le type de contenu, ce que l'on nomme « format ». Dans le contexte de la programmation, ce sont principalement des fichiers exécutables qui sont produits, et, tout comme les autres, ceux-ci sont structurés selon un format particulier.
 
