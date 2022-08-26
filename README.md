@@ -2,7 +2,14 @@
 
 ![CCL](Documents/Images/by-nc-nd.png)
 
-## Références
+# Guides
+
+Guides d'installations relatifs au cours:
+
+- [MSYS2, Outils de Développement, et Librairies Graphiques](https://github.com/Singcaster-CRLJ/420-201-RE/blob/main/Documents/MSYS2.md)
+- [Visual Studio Code et Extensions](https://github.com/Singcaster-CRLJ/420-201-RE/blob/main/Documents/VSCode.md)
+
+# Références
 
 Références relatives au cours:
 
@@ -27,7 +34,7 @@ Références relatives au cours:
 - [Débordement de pile](Documents/StackOverflow.md)
 - [Injection](Documents/ShellCode.md)
 
-## Fichiers
+# Fichiers
 
 Fichiers relatifs au cours:
 
