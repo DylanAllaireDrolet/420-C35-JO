@@ -38,9 +38,9 @@ Le « CPU (Central Process Unit) », ou processeur, est le « cerveau » de l'or
 
 ## Registres
 
-Les registres sont des espaces mémoires particuliers auxquelles le processeur peut accéder directement, avec un très faible temps d'accès, puisqu'ils sont situés dans l'architecture interne du processeur.
+Les registres sont des espaces mémoire particuliers auxquelles le processeur peut accéder directement, avec un très faible temps d'accès, puisqu'ils sont situés dans l'architecture interne du processeur.
 
-Les registres sont impliqués dans la quasi-totalité des instructions que le processeur peut accomplir. Leur nombre est limité et leur taille est variable. 16 bits pour un processeur dit 16 bits, 32 bits pour un processeur dit 32 bits, 64 bits pour un processeur dit 64 bits, etc.:
+Les registres sont impliqués dans la quasi-totalité des instructions que le processeur peut accomplir. Leur nombre est limité et leur taille est variable. 16 bits pour un processeur dit 16 bits, 32 bits pour un processeur dit 32 bits, 64 bits pour un processeur dit 64 bits, etc.
 
 ### Données
 
@@ -48,7 +48,7 @@ Parmi la quinzaine de registres qu'offrait le processeur 8086 d'Intel, 4 registr
 
 Les registres de données sont divisés en deux parties de 8 bits chacune: la partie haute et la partie basse. AH et AL composent AX, BH et BL composent BX, etc. « H » étant la partie haute (High) et « L » la partie basse (Low).
 
-Avec la venue des processeurs 32 bits, ces registres ont été nommés EAX, EBX, ECX et EDX afin de conserver une rétrocompatibilité avec les processeurs 16 bits. On a fait de même avec la venu des processeurs 64 bits en les nommant RAX, RBX, RCX et RDX:
+Avec la venue des processeurs 32 bits, ces registres ont été nommés EAX, EBX, ECX et EDX afin de conserver une rétrocompatibilité avec les processeurs 16 bits. On a fait de même avec l'arrivée des processeurs 64 bits en les nommant RAX, RBX, RCX et RDX:
 
 ![Registre](Images/Register.png)
 
@@ -63,7 +63,9 @@ Les registres de données peuvent être utilisés librement par le programmeur p
 
 Parmi les autres registres, 4 registres de segment servent à pointer les sections de mémoire où se trouvent les différentes parties d’un programme.
 
-Le registre CS « Code Segment » pointe l’adresse du segment de mémoire qui contient les instructions du programme, DS « Data Segment », l’adresse du segment qui contient les données, SS « Stack Segment », l’adresse du segment de la pile.
+Le registre CS « Code Segment » pointe l’adresse du segment de mémoire qui contient les instructions du programme, DS « Data Segment », l’adresse du segment qui contient les données, SS « Stack Segment », l’adresse du segment de la pile:
+
+![Segments](Images/Segments.png)
 
 ### Pointeurs
 
