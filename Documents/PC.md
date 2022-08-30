@@ -18,7 +18,7 @@ La principale différence avec l'architecture précédente est que les instructi
 
 # Mémoire centrale
 
-La « RAM (Random Access Memory) », ou mémoire vive, est la « mémoire à court terme » de l'ordinateur et permet d'échanger des données très rapidement avec le processeur et les prériphériques.
+La « RAM (Random Access Memory) », ou mémoire vive, est la « mémoire à court terme » de l'ordinateur et permet d'échanger des données très rapidement avec le processeur et les périphériques.
 
 Chaque octet de la mémoire centrale est associé à une adresse, généralement exprimée en hexadécimal:
 
@@ -69,7 +69,9 @@ Le registre CS « Code Segment » identifie le segment de mémoire qui contient 
 
 ### Pointeurs
 
-Le registre IP « Instruction Pointer » contient l’adresse-mémoire de la prochaine instruction à exécuter par le processeur, et le registre SP « Stack Pointer » contient l’adresse-mémoire du dessus de la pile.
+Le registre IP « Instruction Pointer » contient l’adresse-mémoire de la prochaine instruction à exécuter par le processeur, et le registre SP « Stack Pointer » contient l’adresse-mémoire du dessus de la pile:
+
+![Pointeurs](Images/Pointers.png)
 
 ### Indicateurs
 
