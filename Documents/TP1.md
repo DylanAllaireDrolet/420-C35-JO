@@ -72,11 +72,11 @@ Le résultat avec l'argument « -f texte.txt » sera:
 
 ![Exemple](Images/TP1Exemple.png)
 
-Le résultat avec les arguments « -o 75 -l 17 -f texte.txt » sera:
+Le résultat avec les arguments « -o 76 -l 17 -f texte.txt » sera:
 
 ![Exemple](Images/TP1ExempleA.png)
 
-Et le résultat avec les arguments « -o 97 -l 28 -f texte.txt » sera:
+Et le résultat avec les arguments « -o 98 -l 28 -f texte.txt » sera:
 
 ![Exemple](Images/TP1ExempleB.png)
 
