@@ -61,17 +61,15 @@ Les registres de données peuvent être utilisés librement par le programmeur p
 
 ### Segment
 
-Parmi les autres registres, 4 registres de segment servent à pointer les sections de mémoire où se trouvent les différentes parties d’un programme.
+Parmi les autres registres, 4 servent à segmenter le mémoire centrale afin de déterminer où se trouvent les différentes parties d'un programme.
 
-Le registre CS « Code Segment » pointe l’adresse du segment de mémoire qui contient les instructions du programme, DS « Data Segment », l’adresse du segment qui contient les données, SS « Stack Segment », l’adresse du segment de la pile:
+Le registre CS « Code Segment » identifie le segment de mémoire qui contient les instructions du programme, DS « Data Segment », le segment qui contient les données, et SS « Stack Segment », le segment de la pile:
 
 ![Segments](Images/Segments.png)
 
 ### Pointeurs
 
-D’autres registres servent aussi de pointeurs en mémoire centrale.
-
-Le registre IP « Instruction Pointer » contient l’adresse-mémoire de la prochaine instruction à exécuter par le processeur et le registre SP « Stack Pointer » contient l’adresse-mémoire du dessus de la pile.
+Le registre IP « Instruction Pointer » contient l’adresse-mémoire de la prochaine instruction à exécuter par le processeur, et le registre SP « Stack Pointer » contient l’adresse-mémoire du dessus de la pile.
 
 ### Indicateurs
 
