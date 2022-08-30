@@ -32,7 +32,7 @@ La procédure principale devra récupérer les arguments possibles:
 Elle devra aussi les valider:
 
 - La valeur du décalage (-o) doit être >= 0 et < que la taille du fichier.
-- La valeur de la taille (-l) doit être > 0 et < que la taille du fichier - le décalage.
+- La valeur de la taille (-l) doit être > 0 et <= que la taille du fichier - le décalage.
 - La valeur du nom du fichier (-f) doit être valide.
 
 ![Fonction principale](Images/TP1Main.png)
